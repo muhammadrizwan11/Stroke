@@ -2,9 +2,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import sklearn
 from sklearn.preprocessing import StandardScaler
-import joblib
+import pickle
 
 # Load the saved Naive Bayes model
 loaded_model = joblib.load('Naive_bayes.pkl')
