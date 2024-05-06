@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 import pickle
+import joblib
 
 # Load the saved Naive Bayes model
 loaded_model = joblib.load('Naive_bayes.pkl')
